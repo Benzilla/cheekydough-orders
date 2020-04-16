@@ -1,0 +1,158 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	-webkit-print-color-adjust: exact;
+}
+
+.page{
+	width: 21cm;
+    overflow: hidden;
+    page-break-after: always;
+    padding-top:40px;	
+}
+
+.invoice{
+	text-align: center;
+	width:90%;
+	margin:auto;
+}
+
+.order-title{
+	margin:5px 0px;
+}
+
+.logo{
+	width:300px;
+	display: inline-block;
+}
+
+.thank-you{
+	font-size:14px;
+}
+
+.name{
+	font-size:18px;
+}
+
+.details{
+	margin-top:10px;
+}
+
+.addresses{
+	margin-top:10px;
+}
+
+.shipping-to, .billed-to{
+	display: inline-block;
+	width: 49%;
+}
+
+.shipping-to{
+	font-size:20px;
+	margin:10px 0px;
+	padding:10px 5px;
+	border:3px solid black;
+}
+
+.shipping-method{
+	font-size:12px;
+	font-style: italic;
+}
+
+.billed-to{
+	text-align: left;
+}
+
+.item-name{
+	font-weight: bold;
+	font-size:18px;
+}
+
+.dough{
+	display: inline-block;
+	margin:10px;
+	width:80px;
+	vertical-align: top;
+}
+
+.dough-symbol{
+	width:40px;
+	height:40px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.dough-name{
+	font-size: 10px;
+}
+
+.chocchip{
+	background-color:#e15a97;
+}
+
+.tripchoc{
+	background-color:#91734c;	
+}
+
+.caramel{
+	background-color:#f6fa8b;	
+}
+
+.nutella{
+	background-color:#ff7b7b;	
+}
+
+.biscoff{
+	background-color:#f52f57;	
+}
+
+.birthday{
+	background-color: #61f9fa;
+}
+
+.reese{
+	background-color: #facc4e;
+}
+
+.crunchie{
+	background-color: #a846a0;
+}
+
+.whitechoc{
+	background-color: #f1f1f1;
+}
+
+.smore{
+	background-color: #93fe81;
+}
+
+.line{
+	width:100%;
+	height:1px;
+	background-color: black;
+	margin:10px 0px;
+}
+
+.totals-section{/*
+	text-align: right;*/
+}
+
+.totals{
+	display: inline-block;
+}
+
+.total-names, .total-amounts{
+	display: inline-block;
+	text-align: left;
+}
+
+.total-names{
+	font-weight: bold;
+}
+
+.total-amounts{
+	margin-left:30px;
+}
+
+.site{
+	margin-top:30px;
+}

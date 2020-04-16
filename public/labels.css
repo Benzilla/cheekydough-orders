@@ -1,0 +1,38 @@
+.row{
+	font-size:0;
+}
+
+.label{
+	display: inline-block;
+	position: relative;
+	width:49%;
+	height:140px;
+/*	border:1px solid black;*/
+	vertical-align: top;
+}
+
+.label-content{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.postage{
+	position: absolute;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	top:0px;
+	right:0px;
+	padding-top:10px;
+	padding-right:35px;
+}
+
+.top-space,.bottom-space{
+	height:52px;
+}

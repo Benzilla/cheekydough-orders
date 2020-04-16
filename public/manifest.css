@@ -1,0 +1,89 @@
+@page { size: landscape; }
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	width:90%;
+	margin:auto;
+}
+
+.customer-info{
+	display: inline-block;
+	width:33%;
+}
+
+.center-img{
+	display: inline-block;
+	text-align: center;
+	width:33%;
+	position: relative;
+}
+
+.center-img img{
+	width:100%;
+}
+
+.number{
+	display: inline-block;
+	text-align: right;
+	width:33%;
+}
+
+.number u{
+	padding: 3px 8px;
+	border:1px solid black;
+	text-decoration: none !important;
+}
+
+.table-section{
+	padding-top:10px;
+}
+
+table{
+	width:100%;
+	border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+tr{
+	text-align: center;
+	font-size: 14px;
+}
+
+td{
+	
+}
+
+.bottom-section{
+	padding-top:10px;
+}
+
+.date{
+	display: inline-block;
+	width:33%;
+}
+
+.signature{
+	display: inline-block;
+	text-align: center;
+	width:33%;
+}
+
+.signature img{
+	height:50px;
+}
+
+.date-stamp{
+	text-align: right;
+	display: inline-block;
+	width:33%;
+}
+
+.stamp-outline{
+	width:95px;
+	height:95px;
+	border-radius: 100%;
+	border:1px dashed black;
+	display: inline-block;
+}

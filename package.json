@@ -1,0 +1,17 @@
+{
+  "name": "cheekydough-orders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cheekydough.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-parse": "^4.8.8",
+    "express": "^4.17.1",
+    "opn": "^6.0.0"
+  }
+}
