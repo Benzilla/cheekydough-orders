@@ -199,7 +199,7 @@ function report(){
 function getOrders(callback){
 	var orders = [];
 	get_invoice_data('orders.csv',function(all_orders){
-		get_invoice_data('orders (1).csv',function(flavour_data){
+		get_invoice_data('flavours.csv',function(flavour_data){
 			var i = 1;
 			while(i < all_orders.length){
 				var o = {};
